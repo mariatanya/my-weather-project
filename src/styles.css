@@ -1,0 +1,96 @@
+body {
+  background-color: rgba(181, 228, 244, 0.3);
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: bold;
+
+  position: relative;
+  top: 30px;
+}
+
+.current-weather p {
+  color: #001f3f;
+  position: relative;
+  top: 15px;
+}
+
+.current-time,
+.details {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.current-weather .details {
+  color: #5c7390;
+  opacity: 1;
+}
+.current-weather .conditions {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.temperature {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 70px;
+  font-size: 40px;
+}
+.temperature .value {
+  font-size: 70px;
+  position: relative;
+  bottom: 20px;
+  left: 7px;
+}
+
+.temperature .symbol {
+  position: relative;
+  bottom: 15px;
+  font-size: 25px;
+}
+
+input[type="search"] {
+  padding: 21px;
+  width: 77%;
+  background-color: #f1f3ef;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: rgba(28, 33, 65, 0.9);
+  border: none;
+  color: #fff;
+  padding: 21px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.weather-app {
+  max-width: fit-content;
+  margin: 50px auto 0;
+  background-color: #f0eee5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 30px 30px 50px 30px;
+  border-radius: 20px;
+  border: none;
+}
+
+footer {
+  border-top: #444444 solid 0.2px;
+  opacity: 0.5;
+}
+footer p {
+  position: relative;
+  top: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+a {
+  color: rgba(255, 36, 0, 0.8);
+}
